@@ -1,0 +1,20 @@
+# python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# jupyter notebooks
+.ipynb_checkpoints
+
+# data (never upload large datasets)
+data/
+!data/.gitkeep
+
+# ide settings
+.vscode/
+.idea/

@@ -1,0 +1,17 @@
+data_path: "./data/raw"
+train_file: "train_FD001.txt"
+test_file: "test_FD001.txt"
+rul_file: "RUL_FD001.txt"
+
+# model hyperparameters
+sequence_length: 50
+batch_size: 64
+input_dim: 14  # sensors usually used after feature selection
+hidden_dim: 100
+layer_dim: 1
+output_dim: 1
+dropout: 0.2
+
+# training
+learning_rate: 0.001
+num_epochs: 50

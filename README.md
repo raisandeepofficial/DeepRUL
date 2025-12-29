@@ -45,7 +45,6 @@ $$
 
 Where $\alpha_t$ represents the attention weights determining the relevance of the sensor readings at time-step $t$ for the final RUL prediction.
 
-> If your GitHub view does not render `$$ ... $$`, replace the equations with LaTeX-rendered image links or use a GitHub Pages site with MathJax.
 
 ## 📂 Dataset
 
